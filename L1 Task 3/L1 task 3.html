@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="L1 task 3.css">
+    
+    <title>temp converter</title>
+    
+       
+
+</head>
+<nav class="nav1">
+    <div>
+        <p><font color="grey">Temperature Converter by Saurabh Rathod</font></p>
+
+    </div>
+    
+    
+</nav>
+
+
+<body>
+    <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        <label for="temp">Please enter the temperature from the dropdown list.</label>
+        <br/><input type="number" name="temp" id="temp">
+        <select name="temp_diff" id="temp_diff">
+            <option value="cel">celcius</option>
+            <option value="fah">fahrenheit</option>
+        </select><br/>
+    <input type="submit" name="temp"><br/>
+    <span id="answer"></span>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
